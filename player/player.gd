@@ -3,7 +3,7 @@ extends CharacterBody2D
 
 const SPEED = 300.0
 const JUMP_VELOCITY = -1000.0
-const BAR_SPD = 100
+const BAR_SPD = 300
 var screen_size
 var gravity = 3000
 var dg = -5
