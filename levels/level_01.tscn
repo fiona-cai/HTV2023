@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://cnbgqay6nfn6v"]
+[gd_scene load_steps=7 format=3 uid="uid://cnbgqay6nfn6v"]
 
 [ext_resource type="Texture2D" uid="uid://bfgd25uf1i8s7" path="res://art/tiles/log_tile.png" id="1_i38al"]
 [ext_resource type="PackedScene" uid="uid://chya1fwbo6x8v" path="res://player/player.tscn" id="2_qhyh2"]
 [ext_resource type="PackedScene" uid="uid://c65v3xtcu2qwg" path="res://misc/red_flag.tscn" id="3_muv2q"]
+[ext_resource type="PackedScene" uid="uid://d0ccdc860vcoq" path="res://enemies/cs_student_f.tscn" id="4_k3mxx"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jw72b"]
 texture = ExtResource("1_i38al")
@@ -539,3 +540,6 @@ layer_0/tile_data = PackedInt32Array(4522007, 589824, 2, 4587543, 589824, 3, 465
 
 [node name="Area2D" parent="." instance=ExtResource("3_muv2q")]
 position = Vector2(628, 1048)
+
+[node name="RigidBody2D" parent="." instance=ExtResource("4_k3mxx")]
+position = Vector2(662, 109)

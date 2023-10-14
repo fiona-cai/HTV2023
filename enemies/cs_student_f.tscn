@@ -1,0 +1,57 @@
+[gd_scene load_steps=12 format=3 uid="uid://d0ccdc860vcoq"]
+
+[ext_resource type="Texture2D" uid="uid://bll2it3fkpd7k" path="res://art/sprites/cs_student_f/cs_f_1.png" id="1_0rmd8"]
+[ext_resource type="Texture2D" uid="uid://rdqic76hwnft" path="res://art/sprites/cs_student_f/cs_f_2.png" id="2_s1m48"]
+[ext_resource type="Texture2D" uid="uid://bqlphom1guumt" path="res://art/sprites/cs_student_f/cs_f_3.png" id="3_84bjf"]
+[ext_resource type="Texture2D" uid="uid://bx47q8qutcic4" path="res://art/sprites/cs_student_f/cs_f_4.png" id="4_fexgr"]
+[ext_resource type="Texture2D" uid="uid://dtw3kck8uk3xd" path="res://art/sprites/cs_student_f/cs_f_5.png" id="5_l6137"]
+[ext_resource type="Texture2D" uid="uid://seyera3t0c7r" path="res://art/sprites/cs_student_f/cs_f_6.png" id="6_5qpt4"]
+[ext_resource type="Texture2D" uid="uid://3774y0t81djv" path="res://art/sprites/cs_student_f/cs_f_7.png" id="7_g54ud"]
+[ext_resource type="Texture2D" uid="uid://bopncf24mdlor" path="res://art/sprites/cs_student_f/cs_f_8.png" id="8_yijuy"]
+[ext_resource type="Script" path="res://enemies/cs_student.gd" id="9_v3xhn"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_3jwci"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_0rmd8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_s1m48")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_84bjf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_fexgr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_l6137")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_5qpt4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_g54ud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_yijuy")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g6xvi"]
+size = Vector2(24.5, 63)
+
+[node name="RigidBody2D" type="RigidBody2D"]
+scale = Vector2(2, 2)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_3jwci")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.25, 0.5)
+shape = SubResource("RectangleShape2D_g6xvi")
+script = ExtResource("9_v3xhn")
