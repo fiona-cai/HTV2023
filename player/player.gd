@@ -2,11 +2,13 @@ extends CharacterBody2D
 
 
 const SPEED = 300.0
-const JUMP_VELOCITY = -400.0
+const JUMP_VELOCITY = -800.0
 var screen_size
+var gravity = 3000
+var dg = -5
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
-var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
+# var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 func _ready():
 	screen_size = get_viewport_rect().size
@@ -38,6 +40,11 @@ func _physics_process(delta):
 	elif velocity.x > 0:
 		$AnimatedSprite2D.flip_h = true
 
+	gravity += dg
+	if gravity < 1500:
+		dg = 5
+	elif gravity > 3000:
+		dg = -5
 	move_and_slide()
 	position.x = clamp(position.x, 0, screen_size.x)
 	position.y = clamp(position.y, 0, screen_size.y)
