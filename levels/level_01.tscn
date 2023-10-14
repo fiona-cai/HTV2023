@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" uid="uid://bfgd25uf1i8s7" path="res://art/tiles/log_tile.png" id="1_i38al"]
 [ext_resource type="PackedScene" uid="uid://chya1fwbo6x8v" path="res://player/player.tscn" id="2_qhyh2"]
-[ext_resource type="PackedScene" uid="uid://c65v3xtcu2qwg" path="res://misc/red_flag.tscn" id="3_muv2q"]
+[ext_resource type="PackedScene" uid="uid://c65v3xtcu2qwg" path="res://red_flags/red_flag.tscn" id="3_muv2q"]
 [ext_resource type="Texture2D" uid="uid://88nkdkwj367p" path="res://art/sprites/Group 19.png" id="4_el3bb"]
 [ext_resource type="PackedScene" uid="uid://d0ccdc860vcoq" path="res://enemies/cs_student_f.tscn" id="4_k3mxx"]
 [ext_resource type="PackedScene" uid="uid://vibebtbq0vva" path="res://enemies/cs_student_m.tscn" id="6_2p4j6"]
