@@ -11,4 +11,5 @@ func _process(delta):
 	
 func _input(event):
 	if get_overlapping_bodies().size() > 0:
-		get_tree().change_scene_to_file("res://levels/level_02.tscn")
+		if get_tree().current_scene.name == "level_01":
+			get_tree().change_scene_to_file("res://levels/level_02.tscn")
