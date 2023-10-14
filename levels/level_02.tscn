@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://dd4kxbyicibw4"]
+[gd_scene load_steps=8 format=3 uid="uid://dd4kxbyicibw4"]
 
 [ext_resource type="Texture2D" uid="uid://1vd53tplqp6x" path="res://art/tiles/seaweed.png" id="1_1p1ap"]
 [ext_resource type="PackedScene" uid="uid://chya1fwbo6x8v" path="res://player/player.tscn" id="2_2es55"]
 [ext_resource type="Texture2D" uid="uid://ccfvdbi5ai677" path="res://art/tiles/Vector 1.png" id="3_qp1bk"]
 [ext_resource type="Texture2D" uid="uid://b0ly0jqge1ab5" path="res://art/tiles/Group 1.png" id="4_vkkql"]
+[ext_resource type="PackedScene" uid="uid://cj6bbi7m62m1d" path="res://misc/red_flag_2.tscn" id="5_2kvyk"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ybcai"]
 texture = ExtResource("1_1p1ap")
@@ -916,7 +917,7 @@ sources/0 = SubResource("TileSetAtlasSource_ybcai")
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("2_2es55")]
 position = Vector2(227, 72)
-scale = Vector2(3, 3)
+scale = Vector2(2, 2)
 
 [node name="TileMap" type="TileMap" parent="."]
 position = Vector2(-1, 0)
@@ -941,3 +942,11 @@ texture = ExtResource("3_qp1bk")
 [node name="Group1" type="Sprite2D" parent="."]
 position = Vector2(977, 291)
 texture = ExtResource("4_vkkql")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+z_index = -2
+color = Color(0.931, 0.978367, 0.98, 1)
+polygon = PackedVector2Array(-203, 1207, -231, -96, 1724, -142, 1541, 1186)
+
+[node name="Area2D" parent="." instance=ExtResource("5_2kvyk")]
+position = Vector2(988, 1063)

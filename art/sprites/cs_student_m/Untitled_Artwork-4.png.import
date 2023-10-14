@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://rdqic76hwnft"
-path="res://.godot/imported/cs_f_2.png-b82b41089c3f38fa7726a4ba874b8dcf.ctex"
+uid="uid://dgtia2pojdklc"
+path="res://.godot/imported/Untitled_Artwork-4.png-e6b6970620e7dde6a70a68eb89b0f6e3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/sprites/cs_student_f/cs_f_2.png"
-dest_files=["res://.godot/imported/cs_f_2.png-b82b41089c3f38fa7726a4ba874b8dcf.ctex"]
+source_file="res://art/sprites/cs_student_m/Untitled_Artwork-4.png"
+dest_files=["res://.godot/imported/Untitled_Artwork-4.png-e6b6970620e7dde6a70a68eb89b0f6e3.ctex"]
 
 [params]
 

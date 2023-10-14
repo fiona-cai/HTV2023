@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://seyera3t0c7r"
-path="res://.godot/imported/cs_f_6.png-414947ad6d180e4a9128bb7ace2c643b.ctex"
+uid="uid://cqen6tb523lwy"
+path="res://.godot/imported/Untitled_Artwork-2.png-b65b53d767b5d1cb5228e74c57fe8ee6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/sprites/cs_student_f/cs_f_6.png"
-dest_files=["res://.godot/imported/cs_f_6.png-414947ad6d180e4a9128bb7ace2c643b.ctex"]
+source_file="res://art/sprites/cs_student_m/Untitled_Artwork-2.png"
+dest_files=["res://.godot/imported/Untitled_Artwork-2.png-b65b53d767b5d1cb5228e74c57fe8ee6.ctex"]
 
 [params]
 
