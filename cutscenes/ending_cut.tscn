@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cu8ay4kn7jooo"]
+
+[ext_resource type="Texture2D" uid="uid://cx0dvu8qxhvox" path="res://art/backgrounds_end/zoomin_on_screen.tres" id="1_rguff"]
+
+[node name="end_scene" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_rguff")

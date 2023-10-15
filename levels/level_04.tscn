@@ -1,5 +1,6 @@
-[gd_scene load_steps=7 format=3 uid="uid://cjnljts4vcbjh"]
+[gd_scene load_steps=8 format=3 uid="uid://cjnljts4vcbjh"]
 
+[ext_resource type="PackedScene" uid="uid://ccdgg4qykvhgd" path="res://misc/timmies.tscn" id="1_37b8m"]
 [ext_resource type="Texture2D" uid="uid://bd5wdoifhgn3k" path="res://art/tiles/chain_tile.png" id="1_jn3cc"]
 [ext_resource type="PackedScene" uid="uid://chya1fwbo6x8v" path="res://player/player.tscn" id="2_61f3d"]
 [ext_resource type="PackedScene" uid="uid://vibebtbq0vva" path="res://enemies/cs_student_m.tscn" id="3_iy8yb"]
@@ -2558,6 +2559,10 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_j0lbo")
 
 [node name="level_04" type="Node2D"]
+
+[node name="Area2D" parent="." instance=ExtResource("1_37b8m")]
+position = Vector2(249, 1030)
+scale = Vector2(5, 5)
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_mc8fv")

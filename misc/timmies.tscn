@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://ccdgg4qykvhgd"]
+
+[ext_resource type="Texture2D" uid="uid://bof1308n5be26" path="res://art/timmies.png" id="1_61rd3"]
+[ext_resource type="Script" path="res://misc/timmies.gd" id="1_x87xw"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_pgk7f"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_61rd3")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ltqje"]
+size = Vector2(21, 15)
+
+[node name="Area2D" type="Area2D"]
+script = ExtResource("1_x87xw")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_pgk7f")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 1.5)
+shape = SubResource("RectangleShape2D_ltqje")
