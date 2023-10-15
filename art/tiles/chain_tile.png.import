@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dp3u8l4m30yl3"
-path="res://.godot/imported/road_tile.png-8b8f19f6f6686c0bf31f336d28239ac1.ctex"
+uid="uid://bd5wdoifhgn3k"
+path="res://.godot/imported/chain_tile.png-2dfca50621fb8b40521f409dabfc236a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://levels/road_tile.png"
-dest_files=["res://.godot/imported/road_tile.png-8b8f19f6f6686c0bf31f336d28239ac1.ctex"]
+source_file="res://art/tiles/chain_tile.png"
+dest_files=["res://.godot/imported/chain_tile.png-2dfca50621fb8b40521f409dabfc236a.ctex"]
 
 [params]
 

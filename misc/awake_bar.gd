@@ -16,6 +16,7 @@ func _process(delta):
 	# print(get_overlapping_areas(), get_overlapping_bodies())
 	for body in get_overlapping_bodies():
 		if body is RigidBody2D:
+			queue_free()
 			body.queue_free()
 
 func _physics_process(delta):
