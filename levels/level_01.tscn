@@ -550,13 +550,14 @@ scale = Vector2(1.13594, 1.43114)
 texture = ExtResource("4_el3bb")
 
 [node name="RigidBody2D2" parent="." instance=ExtResource("6_2p4j6")]
-position = Vector2(257, 364)
-scale = Vector2(2, 2)
+position = Vector2(378, 359)
 
 [node name="RigidBody2D" parent="." instance=ExtResource("4_k3mxx")]
-position = Vector2(662, 109)
+position = Vector2(777, 118)
+scale = Vector2(1, 1)
 
 [node name="Polygon2D" type="Polygon2D" parent="."]
 z_index = -2
+position = Vector2(-125, -111)
 color = Color(0.931, 0.978367, 0.98, 1)
 polygon = PackedVector2Array(-203, 1207, -231, -96, 1724, -142, 1541, 1186)

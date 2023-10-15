@@ -31,6 +31,8 @@ size = Vector2(48, 129.5)
 
 [node name="CSStudent" type="RigidBody2D"]
 scale = Vector2(2, 2)
+lock_rotation = true
+freeze_mode = 1
 script = ExtResource("9_v3xhn")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -38,5 +40,5 @@ scale = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_3jwci")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1, 0.25)
+position = Vector2(1, -3)
 shape = SubResource("RectangleShape2D_g6xvi")
