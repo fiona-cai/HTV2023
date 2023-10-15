@@ -23,5 +23,4 @@ func _process(delta):
 		dir = dir*-1
 		steps = 0
 	var force = Vector2(100, 0)  # Replace with the desired force vector
-	print(velocity)
 	linear_velocity = velocity
