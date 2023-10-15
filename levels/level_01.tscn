@@ -1,8 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://cnbgqay6nfn6v"]
+[gd_scene load_steps=9 format=3 uid="uid://cnbgqay6nfn6v"]
 
 [ext_resource type="Texture2D" uid="uid://bfgd25uf1i8s7" path="res://art/tiles/log_tile.png" id="1_i38al"]
 [ext_resource type="PackedScene" uid="uid://chya1fwbo6x8v" path="res://player/player.tscn" id="2_qhyh2"]
-[ext_resource type="PackedScene" uid="uid://c65v3xtcu2qwg" path="res://misc/red_flag.tscn" id="3_muv2q"]
+[ext_resource type="PackedScene" uid="uid://c65v3xtcu2qwg" path="res://red_flags/red_flag.tscn" id="3_muv2q"]
+[ext_resource type="Texture2D" uid="uid://88nkdkwj367p" path="res://art/sprites/Group 19.png" id="4_el3bb"]
+[ext_resource type="PackedScene" uid="uid://d0ccdc860vcoq" path="res://enemies/cs_student_f.tscn" id="4_k3mxx"]
+[ext_resource type="PackedScene" uid="uid://vibebtbq0vva" path="res://enemies/cs_student_m.tscn" id="6_2p4j6"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jw72b"]
 texture = ExtResource("1_i38al")
@@ -539,3 +542,21 @@ layer_0/tile_data = PackedInt32Array(4522007, 589824, 2, 4587543, 589824, 3, 465
 
 [node name="Area2D" parent="." instance=ExtResource("3_muv2q")]
 position = Vector2(628, 1048)
+
+[node name="Group19" type="Sprite2D" parent="."]
+z_index = -1
+position = Vector2(636, 642.125)
+scale = Vector2(1.13594, 1.43114)
+texture = ExtResource("4_el3bb")
+
+[node name="RigidBody2D2" parent="." instance=ExtResource("6_2p4j6")]
+position = Vector2(257, 364)
+scale = Vector2(2, 2)
+
+[node name="RigidBody2D" parent="." instance=ExtResource("4_k3mxx")]
+position = Vector2(662, 109)
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+z_index = -2
+color = Color(0.931, 0.978367, 0.98, 1)
+polygon = PackedVector2Array(-203, 1207, -231, -96, 1724, -142, 1541, 1186)

@@ -3,9 +3,11 @@ extends CharacterBody2D
 
 const SPEED = 300.0
 const JUMP_VELOCITY = -1000.0
+const BAR_SPD = 300
 var screen_size
 var gravity = 3000
 var dg = -5
+@export var AwakeBar: PackedScene = preload("res://misc/awake_bar.tscn")
 
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 # var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
@@ -29,6 +31,14 @@ func _physics_process(delta):
 		velocity.x = direction * SPEED
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
+	
+	if Input.is_action_just_pressed("shoot_button"):
+		var ab = AwakeBar.instantiate()
+		owner.add_child(ab)
+		if $AnimatedSprite2D.flip_h:
+			ab.init(BAR_SPD, position.x, position.y)
+		else:
+			ab.init(-BAR_SPD, position.x, position.y)
 	
 	if velocity.x > 0:
 		$AnimatedSprite2D.play()

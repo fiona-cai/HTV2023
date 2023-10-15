@@ -1,0 +1,44 @@
+[gd_scene load_steps=9 format=3 uid="uid://vibebtbq0vva"]
+
+[ext_resource type="Texture2D" uid="uid://c6ycbyjqclnne" path="res://art/sprites/cs_student_m/Untitled_Artwork-1.png" id="1_ffluw"]
+[ext_resource type="Script" path="res://enemies/cs_student.gd" id="1_u7ngr"]
+[ext_resource type="Texture2D" uid="uid://cqen6tb523lwy" path="res://art/sprites/cs_student_m/Untitled_Artwork-2.png" id="2_dr00i"]
+[ext_resource type="Texture2D" uid="uid://djv78j8x631mg" path="res://art/sprites/cs_student_m/Untitled_Artwork-3.png" id="3_d50k2"]
+[ext_resource type="Texture2D" uid="uid://dgtia2pojdklc" path="res://art/sprites/cs_student_m/Untitled_Artwork-4.png" id="4_fnwi5"]
+[ext_resource type="Texture2D" uid="uid://dmf8cao50o66f" path="res://art/sprites/cs_student_m/Untitled_Artwork-5.png" id="5_63nia"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ryydc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_ffluw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_dr00i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_d50k2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_fnwi5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_63nia")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eoyfg"]
+size = Vector2(24.5, 63)
+
+[node name="RigidBody2D" type="RigidBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_ryydc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.25, 0.5)
+shape = SubResource("RectangleShape2D_eoyfg")
+script = ExtResource("1_u7ngr")

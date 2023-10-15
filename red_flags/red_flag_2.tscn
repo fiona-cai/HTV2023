@@ -1,13 +1,13 @@
-[gd_scene load_steps=5 format=3 uid="uid://bqnx4xipmbnsq"]
+[gd_scene load_steps=5 format=3 uid="uid://cj6bbi7m62m1d"]
 
-[ext_resource type="Texture2D" uid="uid://bwm4ki24kb6qf" path="res://art/sprites/red_flag.png" id="1_0n63x"]
-[ext_resource type="Script" path="res://misc/red_flag.gd" id="1_8fwn3"]
+[ext_resource type="Script" path="res://red_flags/red_flag_2.gd" id="1_4m08u"]
+[ext_resource type="Texture2D" uid="uid://bwm4ki24kb6qf" path="res://art/sprites/red_flag.png" id="2_2jfy6"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_84drg"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_0n63x")
+"texture": ExtResource("2_2jfy6")
 }],
 "loop": true,
 "name": &"default",
@@ -18,7 +18,7 @@ animations = [{
 size = Vector2(114, 131)
 
 [node name="Area2D" type="Area2D"]
-script = ExtResource("1_8fwn3")
+script = ExtResource("1_4m08u")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_84drg")
