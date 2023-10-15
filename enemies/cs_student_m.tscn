@@ -31,9 +31,10 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_eoyfg"]
-size = Vector2(40, 126)
+size = Vector2(40, 123)
 
 [node name="CSStudent" type="RigidBody2D"]
+lock_rotation = true
 script = ExtResource("1_u7ngr")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -41,5 +42,5 @@ scale = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_ryydc")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(2, 1)
+position = Vector2(2, -0.5)
 shape = SubResource("RectangleShape2D_eoyfg")
