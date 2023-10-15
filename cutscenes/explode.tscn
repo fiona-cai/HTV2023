@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://b0th87tvanoe5"]
+
+[ext_resource type="Texture2D" uid="uid://bmvlvypxr7d5f" path="res://art/explode_end/explode.tres" id="1_odhb7"]
+
+[node name="explode" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1221.0
+offset_bottom = 1221.0
+texture = ExtResource("1_odhb7")
+expand_mode = 2
+stretch_mode = 4

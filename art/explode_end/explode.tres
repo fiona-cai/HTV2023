@@ -1,0 +1,27 @@
+[gd_resource type="AnimatedTexture" load_steps=8 format=3 uid="uid://bmvlvypxr7d5f"]
+
+[ext_resource type="Texture2D" uid="uid://bepvm7wbqk8du" path="res://art/explode_end/boom1.png" id="1_xnsyo"]
+[ext_resource type="Texture2D" uid="uid://dml2n5ei33o6m" path="res://art/explode_end/boom2.png" id="2_pr6cq"]
+[ext_resource type="Texture2D" uid="uid://bny1dkuffklxx" path="res://art/explode_end/boom3.png" id="3_bht4w"]
+[ext_resource type="Texture2D" uid="uid://ct5nsbrb1tlin" path="res://art/explode_end/boom4.png" id="4_onf5f"]
+[ext_resource type="Texture2D" uid="uid://djp0r4uuv4ej2" path="res://art/explode_end/boom5.png" id="5_3d6mr"]
+[ext_resource type="Texture2D" uid="uid://chcddwjof0x83" path="res://art/explode_end/black screen(2).png" id="6_64qqw"]
+[ext_resource type="Texture2D" uid="uid://b5gdl43uvdl8q" path="res://art/explode_end/zwhitey.png" id="7_mhb4o"]
+
+[resource]
+frames = 7
+one_shot = true
+frame_0/texture = ExtResource("1_xnsyo")
+frame_0/duration = 0.3
+frame_1/texture = ExtResource("2_pr6cq")
+frame_1/duration = 0.3
+frame_2/texture = ExtResource("3_bht4w")
+frame_2/duration = 0.3
+frame_3/texture = ExtResource("4_onf5f")
+frame_3/duration = 0.3
+frame_4/texture = ExtResource("5_3d6mr")
+frame_4/duration = 0.3
+frame_5/texture = ExtResource("6_64qqw")
+frame_5/duration = 0.3
+frame_6/texture = ExtResource("7_mhb4o")
+frame_6/duration = 0.3
