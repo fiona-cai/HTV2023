@@ -8,11 +8,13 @@ var secondTime: float = 20.0
 var thirdTime: float = 25.0
 var fourthTime: float = 35.0
 var fifthTime: float = 45.0
+var sixthTime: float = 55.0
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	
 	self.text = "One day, a mad scientist professor created a machine to hypnotize his sleep deprived cs students to make them come to class."
+	
 	pass # Replace with function body.
 
 
@@ -28,5 +30,6 @@ func _process(delta):
 		self.text = str("Meet Racket the Rhino, the deforestation fighter. living in his forest, he attacks every human there to harm his home. with his trusty catapult, he will defend his home...")
 	elif timer >= fourthTime and timer < fifthTime: 
 		self.text = str("Huh, look there. it's some stinky humans. They look very sleepy, lets fire awake bars at them!")
-	elif timer >= fifthTime:
+	elif timer >= sixthTime:
 		get_tree().change_scene_to_file("res://levels/level_01.tscn")
+		
