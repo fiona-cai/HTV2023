@@ -30,7 +30,6 @@ animations = [{
 size = Vector2(48, 129.5)
 
 [node name="CSStudent" type="RigidBody2D"]
-scale = Vector2(2, 2)
 lock_rotation = true
 freeze_mode = 1
 script = ExtResource("9_v3xhn")
