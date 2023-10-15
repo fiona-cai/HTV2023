@@ -1,0 +1,45 @@
+[gd_resource type="AnimatedTexture" load_steps=14 format=3 uid="uid://0asuyts61aq6"]
+
+[ext_resource type="Texture2D" uid="uid://bs6gc0erb8ond" path="res://art/backgrounds/Untitled_Artwork-1 2_scaled_10x_pngcrushed.png" id="1_xnsyo"]
+[ext_resource type="Texture2D" uid="uid://cp0ppl1s0qqsd" path="res://art/backgrounds/Untitled_Artwork-2_scaled_10x_pngcrushed.png" id="2_pr6cq"]
+[ext_resource type="Texture2D" uid="uid://cbr72rttmvgim" path="res://art/backgrounds/Untitled_Artwork-11_scaled_10x_pngcrushed.png" id="3_3linj"]
+[ext_resource type="Texture2D" uid="uid://b737o35imfby4" path="res://art/backgrounds/Untitled_Artwork-12_scaled_10x_pngcrushed.png" id="4_448n1"]
+[ext_resource type="Texture2D" uid="uid://cj25nj5b8o5th" path="res://art/backgrounds/Untitled_Artwork-13_scaled_10x_pngcrushed.png" id="5_gqeg0"]
+[ext_resource type="Texture2D" uid="uid://cl1gvqfloeokv" path="res://art/backgrounds/Untitled_Artwork-3_scaled_10x_pngcrushed.png" id="6_t8u0u"]
+[ext_resource type="Texture2D" uid="uid://dgx2p6uy76yii" path="res://art/backgrounds/Untitled_Artwork-4_scaled_10x_pngcrushed.png" id="7_ibmaa"]
+[ext_resource type="Texture2D" uid="uid://dawhm8tego2nq" path="res://art/backgrounds/Untitled_Artwork-5_scaled_10x_pngcrushed.png" id="8_3n5fl"]
+[ext_resource type="Texture2D" uid="uid://wyjsgp2e4m40" path="res://art/backgrounds/Untitled_Artwork-6_scaled_10x_pngcrushed.png" id="9_rvfcu"]
+[ext_resource type="Texture2D" uid="uid://cugb3vi61uogn" path="res://art/backgrounds/Untitled_Artwork-7_scaled_10x_pngcrushed.png" id="10_vd56p"]
+[ext_resource type="Texture2D" uid="uid://ci8v18tpesdrx" path="res://art/backgrounds/Untitled_Artwork-8_scaled_10x_pngcrushed.png" id="11_i75rw"]
+[ext_resource type="Texture2D" uid="uid://be1slpihlmmij" path="res://art/backgrounds/Untitled_Artwork-9_scaled_10x_pngcrushed.png" id="12_5m3w0"]
+[ext_resource type="Texture2D" uid="uid://b3b3mefoa78gj" path="res://art/backgrounds/Untitled_Artwork-10_scaled_10x_pngcrushed.png" id="13_qjdiq"]
+
+[resource]
+frames = 13
+one_shot = true
+frame_0/texture = ExtResource("1_xnsyo")
+frame_0/duration = 5.0
+frame_1/texture = ExtResource("2_pr6cq")
+frame_1/duration = 0.3
+frame_2/texture = ExtResource("6_t8u0u")
+frame_2/duration = 0.3
+frame_3/texture = ExtResource("7_ibmaa")
+frame_3/duration = 0.3
+frame_4/texture = ExtResource("8_3n5fl")
+frame_4/duration = 0.3
+frame_5/texture = ExtResource("9_rvfcu")
+frame_5/duration = 0.3
+frame_6/texture = ExtResource("10_vd56p")
+frame_6/duration = 0.3
+frame_7/texture = ExtResource("11_i75rw")
+frame_7/duration = 0.3
+frame_8/texture = ExtResource("12_5m3w0")
+frame_8/duration = 0.3
+frame_9/texture = ExtResource("13_qjdiq")
+frame_9/duration = 0.3
+frame_10/texture = ExtResource("3_3linj")
+frame_10/duration = 0.3
+frame_11/texture = ExtResource("4_448n1")
+frame_11/duration = 0.3
+frame_12/texture = ExtResource("5_gqeg0")
+frame_12/duration = 1.0
