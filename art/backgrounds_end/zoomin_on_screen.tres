@@ -1,0 +1,30 @@
+[gd_resource type="AnimatedTexture" load_steps=9 format=3 uid="uid://cx0dvu8qxhvox"]
+
+[ext_resource type="Texture2D" uid="uid://d27surc5qd27p" path="res://art/backgrounds_end/Untitled_Artwork-1 5.png" id="1_yg6of"]
+[ext_resource type="Texture2D" uid="uid://s5a7r2e7a4rg" path="res://art/backgrounds_end/Untitled_Artwork-2 4.png" id="2_ageun"]
+[ext_resource type="Texture2D" uid="uid://cwyd88375ueur" path="res://art/backgrounds_end/Untitled_Artwork-3 3.png" id="3_gdghk"]
+[ext_resource type="Texture2D" uid="uid://bc8i1qhg7suq0" path="res://art/backgrounds_end/Untitled_Artwork-4 2.png" id="4_6sc8q"]
+[ext_resource type="Texture2D" uid="uid://cr8w1ecvudntj" path="res://art/backgrounds_end/Untitled_Artwork-5 2.png" id="5_8ixpa"]
+[ext_resource type="Texture2D" uid="uid://c0ohh53llt8dc" path="res://art/backgrounds_end/Untitled_Artwork-6 2.png" id="6_fsutt"]
+[ext_resource type="Texture2D" uid="uid://bgpiu0od48vbp" path="res://art/backgrounds_end/Untitled_Artwork-7 2.png" id="7_olhfn"]
+[ext_resource type="Texture2D" uid="uid://5q0mvnsdjfsh" path="res://art/backgrounds_end/Untitled_Artwork-8 2.png" id="8_jo8qh"]
+
+[resource]
+frames = 8
+one_shot = true
+frame_0/texture = ExtResource("1_yg6of")
+frame_0/duration = 0.3
+frame_1/texture = ExtResource("2_ageun")
+frame_1/duration = 0.3
+frame_2/texture = ExtResource("3_gdghk")
+frame_2/duration = 0.3
+frame_3/texture = ExtResource("4_6sc8q")
+frame_3/duration = 0.3
+frame_4/texture = ExtResource("5_8ixpa")
+frame_4/duration = 0.3
+frame_5/texture = ExtResource("6_fsutt")
+frame_5/duration = 0.3
+frame_6/texture = ExtResource("7_olhfn")
+frame_6/duration = 0.3
+frame_7/texture = ExtResource("8_jo8qh")
+frame_7/duration = 0.3
