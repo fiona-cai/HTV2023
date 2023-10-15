@@ -1,10 +1,11 @@
-[gd_scene load_steps=8 format=3 uid="uid://dd4kxbyicibw4"]
+[gd_scene load_steps=9 format=3 uid="uid://dd4kxbyicibw4"]
 
 [ext_resource type="Texture2D" uid="uid://1vd53tplqp6x" path="res://art/tiles/seaweed.png" id="1_1p1ap"]
 [ext_resource type="PackedScene" uid="uid://chya1fwbo6x8v" path="res://player/player.tscn" id="2_2es55"]
 [ext_resource type="Texture2D" uid="uid://ccfvdbi5ai677" path="res://art/tiles/Vector 1.png" id="3_qp1bk"]
 [ext_resource type="Texture2D" uid="uid://b0ly0jqge1ab5" path="res://art/tiles/Group 1.png" id="4_vkkql"]
 [ext_resource type="PackedScene" uid="uid://cj6bbi7m62m1d" path="res://red_flags/red_flag_2.tscn" id="5_2kvyk"]
+[ext_resource type="PackedScene" uid="uid://vibebtbq0vva" path="res://enemies/cs_student_m.tscn" id="6_6x2gx"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ybcai"]
 texture = ExtResource("1_1p1ap")
@@ -950,3 +951,9 @@ polygon = PackedVector2Array(-203, 1207, -231, -96, 1724, -142, 1541, 1186)
 
 [node name="Area2D" parent="." instance=ExtResource("5_2kvyk")]
 position = Vector2(988, 1063)
+
+[node name="CSStudent" parent="." instance=ExtResource("6_6x2gx")]
+position = Vector2(104, 571)
+
+[node name="CSStudent2" parent="." instance=ExtResource("6_6x2gx")]
+position = Vector2(232, 1051)
