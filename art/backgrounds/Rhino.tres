@@ -1,0 +1,16 @@
+[gd_resource type="AnimatedTexture" load_steps=4 format=3 uid="uid://f467miwpf86l"]
+
+[ext_resource type="Texture2D" uid="uid://syb4sv5fwphp" path="res://art/backgrounds/Rhino 1.png" id="1_07xcn"]
+[ext_resource type="Texture2D" uid="uid://bgswrovudpck3" path="res://art/backgrounds/Rhino 2.png" id="2_g1x2u"]
+[ext_resource type="Texture2D" uid="uid://b67fgel0lnuhp" path="res://art/backgrounds/Rhino 3.png" id="3_afa2f"]
+
+[resource]
+frames = 4
+frame_0/texture = ExtResource("1_07xcn")
+frame_0/duration = 0.5
+frame_1/texture = ExtResource("2_g1x2u")
+frame_1/duration = 0.5
+frame_2/texture = ExtResource("3_afa2f")
+frame_2/duration = 0.5
+frame_3/texture = ExtResource("2_g1x2u")
+frame_3/duration = 0.5
