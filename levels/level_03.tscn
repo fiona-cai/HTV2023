@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://d0ccdc860vcoq" path="res://enemies/cs_student_f.tscn" id="2_4cm4c"]
 [ext_resource type="PackedScene" uid="uid://vibebtbq0vva" path="res://enemies/cs_student_m.tscn" id="3_fyp6a"]
 [ext_resource type="PackedScene" uid="uid://chya1fwbo6x8v" path="res://player/player.tscn" id="4_iurdo"]
-[ext_resource type="PackedScene" path="res://red_flags/red_flag_3.tscn" id="5_1volk"]
+[ext_resource type="PackedScene" uid="uid://difk8toy1xvl6" path="res://red_flags/red_flag_3.tscn" id="5_1volk"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8xcli"]
 texture = ExtResource("1_uf58b")

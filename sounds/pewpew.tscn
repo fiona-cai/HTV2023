@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://betm4xd8hug4l"]
+
+[ext_resource type="AudioStream" uid="uid://derp1se4exjbi" path="res://sounds/pewpew.wav" id="1_3jrrh"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer"]
+stream = ExtResource("1_3jrrh")
