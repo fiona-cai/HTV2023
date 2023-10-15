@@ -21,6 +21,7 @@ texture = ExtResource("1_wfdkq")
 script = ExtResource("2_p0dgt")
 
 [node name="text" type="TextureRect" parent="TextureRect"]
+layout_mode = 0
 offset_left = 5.0
 offset_top = 789.0
 offset_right = 1205.0
@@ -28,6 +29,7 @@ offset_bottom = 1219.0
 texture = ExtResource("3_ne7st")
 
 [node name="Label" type="Label" parent="TextureRect/text"]
+layout_mode = 0
 offset_left = 111.0
 offset_top = 71.0
 offset_right = 1045.0
@@ -42,6 +44,7 @@ autowrap_mode = 3
 script = ExtResource("5_6u07i")
 
 [node name="instructions" type="TextureRect" parent="TextureRect"]
+layout_mode = 0
 offset_left = 191.0
 offset_top = 173.0
 offset_right = 1015.0
