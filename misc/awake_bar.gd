@@ -1,6 +1,6 @@
 extends Area2D
 
-var speed = 100
+var speed = 500
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -13,10 +13,14 @@ func init(spd, px, py):
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	pass
+	# print(get_overlapping_areas(), get_overlapping_bodies())
+	for body in get_overlapping_bodies():
+		if body is RigidBody2D:
+			body.queue_free()
 
 func _physics_process(delta):
 	position += transform.x * speed * delta
+
 
 func _on_Bullet_body_entered(body):
 	if body.is_in_group("mobs"):

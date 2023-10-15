@@ -15,6 +15,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d8io0"]
+size = Vector2(53, 29)
 
 [node name="AwakeBar" type="Area2D"]
 script = ExtResource("1_apmql")
@@ -24,4 +25,5 @@ scale = Vector2(3, 3)
 sprite_frames = SubResource("SpriteFrames_xrgre")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, -1.5)
 shape = SubResource("RectangleShape2D_d8io0")

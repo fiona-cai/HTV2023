@@ -27,15 +27,16 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_g6xvi"]
-size = Vector2(24.5, 63)
+size = Vector2(48, 129.5)
 
-[node name="RigidBody2D" type="RigidBody2D"]
+[node name="CSStudent" type="RigidBody2D"]
 scale = Vector2(2, 2)
+script = ExtResource("9_v3xhn")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_3jwci")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0.25, 0.5)
+position = Vector2(1, 0.25)
 shape = SubResource("RectangleShape2D_g6xvi")
-script = ExtResource("9_v3xhn")
