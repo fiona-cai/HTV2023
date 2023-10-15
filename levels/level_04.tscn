@@ -2583,9 +2583,6 @@ position = Vector2(332, 518)
 [node name="CSStudent5" parent="." instance=ExtResource("3_iy8yb")]
 position = Vector2(355, 776)
 
-[node name="CSStudent6" parent="." instance=ExtResource("3_iy8yb")]
-position = Vector2(766, 770)
-
 [node name="CSStudent7" parent="." instance=ExtResource("3_iy8yb")]
 position = Vector2(1047, 1002)
 
